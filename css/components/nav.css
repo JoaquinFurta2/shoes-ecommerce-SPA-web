@@ -172,7 +172,6 @@ nav {
     }
 
     nav {
-        padding: 1rem;
         grid-template-columns: auto 1fr auto auto;
         align-items: center;
         gap: 15px;
