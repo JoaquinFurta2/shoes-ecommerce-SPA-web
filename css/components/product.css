@@ -348,6 +348,10 @@
     .product__slideShow .close {
         display: none;
     }
+
+    .product__slideShow .icon-zoom {
+        display: none;
+    }
     
 }
 
