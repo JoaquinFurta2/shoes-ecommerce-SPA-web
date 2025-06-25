@@ -1,0 +1,86 @@
+/* HEROO */
+
+.hero {
+    margin: 0 auto;
+    margin-top:7rem ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+ }
+ 
+ .hero__content {
+     display: grid;
+     gap: 10px;
+ 
+ }
+ 
+ .hero__span {
+     font-weight: 600;
+     opacity: 0.9;
+ }
+ 
+ .hero__title {
+     font-family: "Sofia Sans", "Verdana";
+     text-transform: uppercase;
+     font-size: clamp(3rem, 8vw, 6.5rem);
+     line-height: 1;
+     
+ }
+ 
+ .hero__btn {
+     overflow: hidden;
+     position: relative;
+     margin-top: 1rem;
+     border: 1px black solid;
+     border-radius: 5px;
+     padding: 1rem 2rem;
+     font-weight: 600;
+     letter-spacing: 1px;
+     justify-self: start;
+     transition: all 0.3s;
+ }
+ 
+ .hero__btn::after {
+     content:'';
+     position: absolute;
+     inset: 0;
+     z-index: -1;
+     background-color: var(--Orange);
+     border: 1px solid var(--Orange);
+     translate: -100%;
+     transition: translate 0.3s;
+ }
+ 
+ .hero__btn:is(:hover,:focus) {
+     color: var(--White);
+     scale: 1.2;
+ 
+ }
+ .hero__btn:active {
+     scale: 1.1;
+ }
+ .hero__btn:is(:hover,:focus)::after {
+    translate: 0;
+ }
+ 
+ 
+ .hero__img {
+   width: 45%;
+ }
+ 
+ @media (max-width:550px) {
+     .hero {
+        flex-direction: column-reverse;
+        justify-content: start;
+        margin-top: 8rem;
+ 
+     }
+     .hero__img {
+         width: 80%;
+     }
+     .hero__title {
+        /* font-size: clamp(3.7rem, 18vw, 3.9rem); */
+        font-size:clamp(2.5rem, 12vw, 3.9rem)
+     }
+ }

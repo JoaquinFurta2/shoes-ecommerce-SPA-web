@@ -1,0 +1,9 @@
+.catalog .decoration {
+    z-index: -1;
+    position: absolute;
+    background-color: var(--Orange);
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    opacity: 0.1;
+}

@@ -1,0 +1,42 @@
+@keyframes blink {
+    0% {
+     visibility: hidden; 
+    }
+    100% {
+       visibility: visible;
+    }
+}
+
+.Err404-cont {
+    width: 100%;
+    height: 100vh;
+    background: var(--White);
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Err404 {
+    display: grid;
+    gap: 15px;
+    color: black;
+    max-width: 500px;
+    padding: 1rem;
+}
+
+.Err404 h2 {
+    font-family:"Sofia Sans";
+    font-size: clamp(3rem, 7vw, 3.5rem);
+}
+
+.Err404 p {
+    line-height: 1.5;
+}
+.Err404 p::after {
+    content:'|';
+    animation: blink 1s  steps(2) infinite;
+}
+
+
+

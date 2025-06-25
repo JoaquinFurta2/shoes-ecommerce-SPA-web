@@ -1,0 +1,152 @@
+
+
+
+/* Font faimly */
+
+@font-face {
+    font-family: 'Kumbh Sans';
+    font-weight: 400;
+    src:local(), 
+        url('../../assets/fonts/kumbh-sans/kumbh-sans-v22-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+ 
+  @font-face {
+    
+    font-family: 'Kumbh Sans';
+    font-weight: 600;
+    src:local(), 
+        url('../../assets/fonts/kumbh-sans/kumbh-sans-v22-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+  @font-face {
+    font-family: 'Kumbh Sans';
+    font-weight: 700;
+    src:local(),
+        url('../../assets/fonts/kumbh-sans/kumbh-sans-v22-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+
+@font-face {
+    font-family: 'Sofia Sans';
+    font-weight: 900;
+    src: local(), 
+        url('../../assets/fonts/sofia-sans/sofia-sans-condensed-v2-latin-900.woff2') format('woff2');
+   
+}
+
+
+
+
+/* VAR */
+
+:root {
+   /*  --Orange: #ff7d1a; */
+    --Orange: #9747ff;
+    --real--orange:#ff7d1a;
+    /* --Orange:rgb(31, 31, 226);  */
+    --Pale-orange: hsl(25, 100%, 94%);
+    
+    --Very_dark_blue: hsl(218, 12%, 13%);
+    --Dark_grayish_blue: hsl(219, 9%, 45%);
+    --Grayish_blue: hsl(220, 14%, 75%);
+    --Light_grayish-blue: hsl(230, 60%, 98%);
+    --White: hsl(0, 0%, 100%);
+    --Black: hsl(0, 0%, 0%);
+    --Blackx: rgba(0, 0, 0, 0.199); /*  //(with 75% opacity for lightbox background) */
+    --error: #E51724;
+    --skeleton:rgb(228, 221, 221);
+    --blue:	#9cff1a;
+    }
+    
+    *, ::before, ::after {
+        box-sizing: border-box;
+    }
+    
+    body {
+        background: var(--White);
+        font-family: "Kumbh Sans", Verdana, Geneva, Tahoma, sans-serif;
+        width:100%;
+        margin: 0 auto;
+    }
+    
+    img {
+        max-width: 100%;
+    }
+    
+    a {
+        color: inherit;
+        font-family: inherit;
+        text-decoration: none;
+    }
+
+    h1,h2,h4,h3, p {
+        margin: 0;
+        padding: 0;
+    }
+
+/* Buttton */
+
+
+button {
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-family: inherit;
+    transition: 0.2s;
+}
+
+nav button:active:not(.check) {
+    scale: 1.2;
+}
+nav button:hover:not(.check) {
+    translate: 0 -2px;
+}
+
+.blur {
+    display: block;
+    position: fixed;
+    inset:0;
+    z-index: 1000;
+    backdrop-filter: blur(5px) brightness(70%);
+    cursor: pointer;
+    
+    visibility: hidden;
+    opacity: 0;
+
+    transition: 0.3s all;
+}
+
+
+
+.blur.active {
+    opacity: 1;
+    visibility: visible;
+}
+.blur.z {
+    z-index: 100000;
+}
+
+
+
+/* transition */
+
+main {
+    transform: translate(0) ;
+    transition: transform 0.8s ease, opacity 0.7s ease-in-out;
+    will-change: transform, opacity;
+}
+
+.bottomPic {
+    width: min(100%, 1000px);
+    display: block;
+    margin: 5rem auto 0;
+
+}
+
+@media (min-width:1000px) {
+    .bottomPic {
+        margin-bottom: 5rem;
+        border-radius: 10px
+    }
+   
+}

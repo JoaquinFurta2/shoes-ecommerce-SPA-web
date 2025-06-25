@@ -1,0 +1,402 @@
+[
+{
+   "id": "1",   
+   "name": "Nike Dunk Low Retro",
+   "gender":["male", "female"],
+   "company":"Nike",
+   "price": "699",
+   "disc": "50",
+   "size":[7,8,9,9.5,10],
+   "description": "Created for the court but later dominating the streets, the Nike Dunk Low Retro returns with modern overlays and the team's original colors. This basketball icon pays homage to '80s style with premium leather on the upper that looks good and feels even better. Modern footwear technology brings 21st century comfort."
+},
+{
+   "id": "2",
+   "name": "Air Jordan 1 Retro High OG",
+   "gender":["male", "female"],
+   "company":"Nike",
+   "price": "509",
+   "disc": "10",
+   "size":[7,8,8.5,9.5,10, 11],
+   "description": "Created for the court but later dominating the streets, the Nike Dunk Low Retro returns with modern overlays and the team's original colors. This basketball icon pays homage to '80s style with premium leather on the upper that looks good and feels even better. Modern footwear technology brings 21st century comfort."
+},
+{
+   "id": "3",
+   "name": "Nike Mercurial Vapor 15 Academy",
+   "gender":["male"],
+   "company":"Nike",
+   "price": "579",
+   "disc": "0",
+   "size":[6,8,9,9.5,10],
+   "description": "Created for the court but later dominating the streets, the Nike Dunk Low Retro returns with modern overlays and the team's original colors. This basketball icon pays homage to '80s style with premium leather on the upper that looks good and feels even better. Modern footwear technology brings 21st century comfort."
+},
+{
+   "id": "4",
+   "name": "Nike Phantom GX 2 Pro",
+   "gender":["male", "female"],
+   "company":"Nike",
+   "price": "799",
+   "disc": "20",
+   "size":[6,7,8,9,9.5,12],
+   "description": "Created for the court but later dominating the streets, the Nike Dunk Low Retro returns with modern overlays and the team's original colors. This basketball icon pays homage to '80s style with premium leather on the upper that looks good and feels even better. Modern footwear technology brings 21st century comfort."
+},
+{
+   "id": "5",   
+   "name": "Nike Court Vision Low Next ",
+   "gender":["male", "female"],
+   "company":"Nike",
+   "price": "489",
+   "disc": "0",
+   "size":[7,8,9,9.5,11.5],
+   "description": "Created for the court but later dominating the streets, the Nike Dunk Low Retro returns with modern overlays and the team's original colors. This basketball icon pays homage to '80s style with premium leather on the upper that looks good and feels even better. Modern footwear technology brings 21st century comfort."
+},
+{
+   "id": "6",
+   "name": "NikeCourt Vapor Lite 2",
+   "gender":["female"],
+   "company":"Nike",
+   "price": "489",
+   "disc": "0",
+   "size":[7,8,8.5,9.5],
+   "description": "Created for the court but later dominating the streets, the Nike Dunk Low Retro returns with modern overlays and the team's original colors. This basketball icon pays homage to '80s style with premium leather on the upper that looks good and feels even better. Modern footwear technology brings 21st century comfort."
+},
+{
+   "id": "7",
+   "name": "Nike Vaporfly 3 Eliud",
+   "gender":["female"],
+   "company":"Nike",
+   "price": "659",
+   "disc": "30",
+   "size":[6,8,9,9.5],
+   "description": "Created for the court but later dominating the streets, the Nike Dunk Low Retro returns with modern overlays and the team's original colors. This basketball icon pays homage to '80s style with premium leather on the upper that looks good and feels even better. Modern footwear technology brings 21st century comfort."
+},
+{
+   "id": "8",
+   "name": "Nike Dunk Low Retro",
+   "gender":["male", "female"],
+   "company":"Nike",
+   "price": "290",
+   "disc": "10",
+   "size":[6,7,8,9,9.5,12, 13],
+   "description": "Created for the court but later dominating the streets, the Nike Dunk Low Retro returns with modern overlays and the team's original colors. This basketball icon pays homage to '80s style with premium leather on the upper that looks good and feels even better. Modern footwear technology brings 21st century comfort."
+},
+{
+   "id": "9",
+   "name": "Nike Blazer Low 77",
+   "gender":["male", "female"],
+   "company":"Nike",
+   "price": "499",
+   "disc": "0",
+   "size":[6,9,12],
+   "description": "Created for the court but later dominating the streets, the Nike Dunk Low Retro returns with modern overlays and the team's original colors. This basketball icon pays homage to '80s style with premium leather on the upper that looks good and feels even better. Modern footwear technology brings 21st century comfort."
+},
+{
+   "id": "10",   
+   "name": "Nike Tanjun",
+   "gender":["male", "female"],
+   "company":"Nike",
+   "price": "349",
+   "disc": "5",
+   "size":[7,8,9,10.5],
+   "description": "Created for the court but later dominating the streets, the Nike Dunk Low Retro returns with modern overlays and the team's original colors. This basketball icon pays homage to '80s style with premium leather on the upper that looks good and feels even better. Modern footwear technology brings 21st century comfort."
+},
+{
+   "id": "11",
+   "name": "Nike Air Max",
+   "gender":["female"],
+   "company":"Nike",
+   "price": "699",
+   "disc": "0",
+   "size":[7,8,8.5,9.5],
+   "description": "Created for the court but later dominating the streets, the Nike Dunk Low Retro returns with modern overlays and the team's original colors. This basketball icon pays homage to '80s style with premium leather on the upper that looks good and feels even better. Modern footwear technology brings 21st century comfort."
+},
+{
+   "id": "12",
+   "name": "Nike Lunar Force",
+   "gender":["male"],
+   "company":"Nike",
+   "price": "499",
+   "disc": "25",
+   "size":[8,9,9.5,12, 13],
+   "description": "Created for the court but later dominating the streets, the Nike Dunk Low Retro returns with modern overlays and the team's original colors. This basketball icon pays homage to '80s style with premium leather on the upper that looks good and feels even better. Modern footwear technology brings 21st century comfort."
+},
+{
+   "id": "13",
+   "name": "Nike Air Force ",
+   "gender":["female", "male"],
+   "company":"Nike",
+   "price": "629",
+   "disc": "0",
+   "size":[6,8, 8.5,9,9.5],
+   "description": "Created for the court but later dominating the streets, the Nike Dunk Low Retro returns with modern overlays and the team's original colors. This basketball icon pays homage to '80s style with premium leather on the upper that looks good and feels even better. Modern footwear technology brings 21st century comfort."
+},
+{
+   "id": "14",
+   "name": "Nike Dunk Low SE ",
+   "gender":["female"],
+   "company":"Nike",
+   "price": "299",
+   "disc": "0",
+   "size":[6,8,9,9.5],
+   "description": "Created for the court but later dominating the streets, the Nike Dunk Low Retro returns with modern overlays and the team's original colors. This basketball icon pays homage to '80s style with premium leather on the upper that looks good and feels even better. Modern footwear technology brings 21st century comfort."
+},
+{
+   "id": "15",
+   "name": "Nike Tiempo Legend 10",
+   "gender":["female", "male"],
+   "company":"Nike",
+   "price": "999",
+   "disc": "45",
+   "size":[6,8,9,9.5, 10],
+   "description": "Created for the court but later dominating the streets, the Nike Dunk Low Retro returns with modern overlays and the team's original colors. This basketball icon pays homage to '80s style with premium leather on the upper that looks good and feels even better. Modern footwear technology brings 21st century comfort."
+},
+{
+   "id": "16",
+   "name": "Nike Air Force 1 07 LV8",
+   "gender":["female"],
+   "company":"Nike",
+   "price": "390",
+   "disc": "0",
+   "size":[6,8,9,9],
+   "description": "Created for the court but later dominating the streets, the Nike Dunk Low Retro returns with modern overlays and the team's original colors. This basketball icon pays homage to '80s style with premium leather on the upper that looks good and feels even better. Modern footwear technology brings 21st century comfort."
+},
+{
+   "id": "17",
+   "name": "Nike Air Max 1",
+   "gender":["female", "male"],
+   "company":"Nike",
+   "price": "729",
+   "disc": "0",
+   "size":[6,7,8,9,9.5],
+   "description": "Created for the court but later dominating the streets, the Nike Dunk Low Retro returns with modern overlays and the team's original colors. This basketball icon pays homage to '80s style with premium leather on the upper that looks good and feels even better. Modern footwear technology brings 21st century comfort."
+},
+{
+   "id": "18",
+   "name": "Nike Phantom GX 2 Elite",
+   "gender":["female", "male"],
+   "company":"Nike",
+   "price": "799",
+   "disc": "15",
+   "size":[6,7,7.5,8,9],
+   "description": "Created for the court but later dominating the streets, the Nike Dunk Low Retro returns with modern overlays and the team's original colors. This basketball icon pays homage to '80s style with premium leather on the upper that looks good and feels even better. Modern footwear technology brings 21st century comfort."
+},
+{
+   "id": "19",
+   "name": "Nike Zoom",
+   "gender":["female", "male"],
+   "company":"Nike",
+   "price": "389",
+   "disc": "0",
+   "size":[6,7,8,9,10],
+   "description": "Created for the court but later dominating the streets, the Nike Dunk Low Retro returns with modern overlays and the team's original colors. This basketball icon pays homage to '80s style with premium leather on the upper that looks good and feels even better. Modern footwear technology brings 21st century comfort."
+},
+{
+   "id": "20",
+   "name": "Nike Air Max 97",
+   "gender":["female", "male"],
+   "company":"Nike",
+   "price": "679",
+   "disc": "30",
+   "size":[5,6,9],
+   "description": "Created for the court but later dominating the streets, the Nike Dunk Low Retro returns with modern overlays and the team's original colors. This basketball icon pays homage to '80s style with premium leather on the upper that looks good and feels even better. Modern footwear technology brings 21st century comfort."
+},
+{
+   "id": "21",
+   "name": "Nike SB Dunk Low Pro ",
+   "gender":["female", "male"],
+   "company":"Nike",
+   "price": "359",
+   "disc": "0",
+   "size":[8,6,9,10.5],
+   "description": "Created for the court but later dominating the streets, the Nike Dunk Low Retro returns with modern overlays and the team's original colors. This basketball icon pays homage to '80s style with premium leather on the upper that looks good and feels even better. Modern footwear technology brings 21st century comfort."
+},
+{
+   "id": "22",
+   "name": "Nike Air Max 1",
+   "gender":["female"],
+   "company":"Nike",
+   "price": "679",
+   "disc": "30",
+   "size":[5,6,9],
+   "description": "Created for the court but later dominating the streets, the Nike Dunk Low Retro returns with modern overlays and the team's original colors. This basketball icon pays homage to '80s style with premium leather on the upper that looks good and feels even better. Modern footwear technology brings 21st century comfort."
+},
+{
+   "id": "23",
+   "name": "Nike Blazer Mid 77",
+   "gender":["female", "male"],
+   "company":"Nike",
+   "price": "399",
+   "disc": "0",
+   "size":[5, 6, 7.5,9,10,10.5],
+   "description": "Created for the court but later dominating the streets, the Nike Dunk Low Retro returns with modern overlays and the team's original colors. This basketball icon pays homage to '80s style with premium leather on the upper that looks good and feels even better. Modern footwear technology brings 21st century comfort."
+},
+{
+   "id": "24",
+   "name": "Air Jordan 1 Low SE Craft",
+   "gender":["male"],
+   "company":"Nike",
+   "price": "729",
+   "disc": "20",
+   "size":[7,7.5,8,9],
+   "description": "Created for the court but later dominating the streets, the Nike Dunk Low Retro returns with modern overlays and the team's original colors. This basketball icon pays homage to '80s style with premium leather on the upper that looks good and feels even better. Modern footwear technology brings 21st century comfort."
+},
+{
+   "id": "25",
+   "name": "Nike Victori One",
+   "gender":["female", "male"],
+   "company":"Nike",
+   "price": "199",
+   "disc": "0",
+   "size":[5.5,6,6.5,8,9.5],
+   "description": "Created for the court but later dominating the streets, the Nike Dunk Low Retro returns with modern overlays and the team's original colors. This basketball icon pays homage to '80s style with premium leather on the upper that looks good and feels even better. Modern footwear technology brings 21st century comfort."
+},
+{
+   "id": "26",
+   "name": "Nike Cortez Textile",
+   "gender":["female", "male"],
+   "company":"Nike",
+   "price": "479",
+   "disc": "5",
+   "size":[7.5,7,8, 9],
+   "description": "Created for the court but later dominating the streets, the Nike Dunk Low Retro returns with modern overlays and the team's original colors. This basketball icon pays homage to '80s style with premium leather on the upper that looks good and feels even better. Modern footwear technology brings 21st century comfort."
+},
+{
+   "id": "27",
+   "name": "Air Jordan 4 Retro Blue",
+   "gender":["female", "male"],
+   "company":"Nike",
+   "price": "859",
+   "disc": "10",
+   "size":[5,6,9,11,11.5],
+   "description": "Created for the court but later dominating the streets, the Nike Dunk Low Retro returns with modern overlays and the team's original colors. This basketball icon pays homage to '80s style with premium leather on the upper that looks good and feels even better. Modern footwear technology brings 21st century comfort."
+},
+{
+   "id": "28",
+   "name": "Nike Dunk Low SE",
+   "gender":["female"],
+   "company":"Nike",
+   "price": "599",
+   "disc": "50",
+   "size":[5.5,6,6.5,7],
+   "description": "Created for the court but later dominating the streets, the Nike Dunk Low Retro returns with modern overlays and the team's original colors. This basketball icon pays homage to '80s style with premium leather on the upper that looks good and feels even better. Modern footwear technology brings 21st century comfort."
+},
+{
+   "id": "29",
+   "name": "Air Jordan 3 Retro",
+   "gender":["female", "male"],
+   "company":"Nike",
+   "price": "649",
+   "disc": "0",
+   "size":[7,8.5,9,11,11.5],
+   "description": "Created for the court but later dominating the streets, the Nike Dunk Low Retro returns with modern overlays and the team's original colors. This basketball icon pays homage to '80s style with premium leather on the upper that looks good and feels even better. Modern footwear technology brings 21st century comfort."
+},
+{
+   "id": "30",
+   "name": "Nike Tiempo Emerald Legend",
+   "gender":["female", "male"],
+   "company":"Nike",
+   "price": "819",
+   "disc": "5",
+   "size":[8,8.5,9,9.5],
+   "description": "Created for the court but later dominating the streets, the Nike Dunk Low Retro returns with modern overlays and the team's original colors. This basketball icon pays homage to '80s style with premium leather on the upper that looks good and feels even better. Modern footwear technology brings 21st century comfort."
+},
+{
+   "id": "31",
+   "name": "NikePremier 3",
+   "gender":["female", "male"],
+   "company":"Nike",
+   "price": "359",
+   "disc": "0",
+   "size":[8,6,9,10.5],
+   "description": "Created for the court but later dominating the streets, the Nike Dunk Low Retro returns with modern overlays and the team's original colors. This basketball icon pays homage to '80s style with premium leather on the upper that looks good and feels even better. Modern footwear technology brings 21st century comfort."
+},
+{
+   "id": "32",
+   "name": "Nike Metcon 9",
+   "gender":["female"],
+   "company":"Nike",
+   "price": "679",
+   "disc": "0",
+   "size":[5,6.5,7],
+   "description": "Created for the court but later dominating the streets, the Nike Dunk Low Retro returns with modern overlays and the team's original colors. This basketball icon pays homage to '80s style with premium leather on the upper that looks good and feels even better. Modern footwear technology brings 21st century comfort."
+},
+{
+   "id": "33",
+   "name": "Air Jordan 1 Mid",
+   "gender":["female", "male"],
+   "company":"Nike",
+   "price": "499",
+   "disc": "0",
+   "size":[5, 6, 7.5,9,10,10.5],
+   "description": "Created for the court but later dominating the streets, the Nike Dunk Low Retro returns with modern overlays and the team's original colors. This basketball icon pays homage to '80s style with premium leather on the upper that looks good and feels even better. Modern footwear technology brings 21st century comfort."
+},
+{
+   "id": "34",
+   "name": "Nike Air Max 90 Futura",
+   "gender":["female"],
+   "company":"Nike",
+   "price": "729",
+   "disc": "20",
+   "size":[7,7.5,8,9],
+   "description": "Created for the court but later dominating the streets, the Nike Dunk Low Retro returns with modern overlays and the team's original colors. This basketball icon pays homage to '80s style with premium leather on the upper that looks good and feels even better. Modern footwear technology brings 21st century comfort."
+},
+{
+   "id": "35",
+   "name": "Nike Air Max 90",
+   "gender":["female"],
+   "company":"Nike",
+   "price": "329",
+   "disc": "0",
+   "size":[5.5,6,6.5],
+   "description": "Created for the court but later dominating the streets, the Nike Dunk Low Retro returns with modern overlays and the team's original colors. This basketball icon pays homage to '80s style with premium leather on the upper that looks good and feels even better. Modern footwear technology brings 21st century comfort."
+},
+{
+   "id": "36",
+   "name": "Nike Dunk High Retro",
+   "gender":["female"],
+   "company":"Nike",
+   "price": "489",
+   "disc": "5",
+   "size":[7.5,7,8, 9],
+   "description": "Created for the court but later dominating the streets, the Nike Dunk Low Retro returns with modern overlays and the team's original colors. This basketball icon pays homage to '80s style with premium leather on the upper that looks good and feels even better. Modern footwear technology brings 21st century comfort."
+},
+{
+   "id": "37",
+   "name": "Nike Air Dunk Low Jumbo",
+   "gender":["female", "male"],
+   "company":"Nike",
+   "price": "659",
+   "disc": "30",
+   "size":[5,6,9,11,11.5],
+   "description": "Created for the court but later dominating the streets, the Nike Dunk Low Retro returns with modern overlays and the team's original colors. This basketball icon pays homage to '80s style with premium leather on the upper that looks good and feels even better. Modern footwear technology brings 21st century comfort."
+},
+{
+   "id": "38",
+   "name": "Nike Air Max 1",
+   "gender":["female, male"],
+   "company":"Nike",
+   "price": "599",
+   "disc": "50",
+   "size":[6,6.5],
+   "description": "Created for the court but later dominating the streets, the Nike Dunk Low Retro returns with modern overlays and the team's original colors. This basketball icon pays homage to '80s style with premium leather on the upper that looks good and feels even better. Modern footwear technology brings 21st century comfort."
+},
+{
+   "id": "39",
+   "name": "Nike Air Max Alpha",
+   "gender":["male"],
+   "company":"Nike",
+   "price": "429",
+   "disc": "15",
+   "size":[7,8.5,9,10,11.5],
+   "description": "Created for the court but later dominating the streets, the Nike Dunk Low Retro returns with modern overlays and the team's original colors. This basketball icon pays homage to '80s style with premium leather on the upper that looks good and feels even better. Modern footwear technology brings 21st century comfort."
+},
+{
+   "id": "40",
+   "name": "Air Jordan 1 Low",
+   "gender":["female", "male"],
+   "company":"Nike",
+   "price": "519",
+   "disc": "0",
+   "size":[7,8.5,9,9.5,10],
+   "description": "Created for the court but later dominating the streets, the Nike Dunk Low Retro returns with modern overlays and the team's original colors. This basketball icon pays homage to '80s style with premium leather on the upper that looks good and feels even better. Modern footwear technology brings 21st century comfort."
+}
+]

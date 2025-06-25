@@ -1,0 +1,124 @@
+/* CARDD */
+
+.card {
+    background: var(--White);
+    color: var(--Dark_grayish_blue);
+    position: relative;
+    cursor: pointer;
+    transition: all 0.2s;
+    border-radius: 10px;
+}
+
+
+
+.card__img {
+    visibility: hidden;
+    height: 0;
+
+    border-radius: 10px 10px 0 0;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.card__img[style="visibility: visible;"] {
+    opacity: 1;
+    height: auto;
+}
+
+.card__company {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    letter-spacing: 2px;
+}
+
+.card__title {
+    color: var(--Very_dark_blue);
+    font-weight: 700;
+}
+
+.card__price {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--Very_dark_blue);
+}
+
+.card__disc {
+    width: fit-content;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: var(--Light_grayish-blue);
+    background-color: var(--Orange);
+    padding: 0.3rem 0.4rem;
+    border-radius: 5px;
+}
+
+.card__before-disc {
+    font-weight: 700;
+    text-decoration: line-through;
+    align-self: center;
+    color: var(--Orange);
+}
+
+.card__content {
+
+    padding: 1rem;
+    display: grid;
+    gap: 10px;
+}
+
+.card__pricing {
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+.card::after {
+    content:'';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    border:1px solid var(--Grayish_blue);
+   
+    opacity: 0;
+    border-radius: 10px;
+    transition: all 0.2s;
+}
+
+.card:is(:focus,:hover) {
+    transform: translateZ(0)  scale(1.01);
+    backface-visibility: hidden;
+    box-shadow: 10px 10px 3px;
+    outline: 0;
+}
+.card:is(:hover, :focus)::after {
+ opacity: 1;
+}
+
+
+.card--hidden {
+    display: none;
+}
+
+/* CARD__img skeleton */
+
+  
+@keyframes animation {
+    0% {
+      opacity: 0.3;
+    }
+    100% {
+      opacity: 0.7;
+    }
+  }
+
+.card__img-skeleton {
+    opacity: 0.7;
+    height: 250px;
+    background: rgb(228, 221, 221);
+    border-radius: 10px;
+    animation: animation 2s linear infinite alternate; 
+}
+
+
+  

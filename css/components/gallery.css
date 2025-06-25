@@ -1,0 +1,24 @@
+.gallery {
+    display: grid;
+    position: fixed;
+    inset: 0;
+    z-index: 10000000000;
+    max-width: 700px;
+    height: fit-content;
+    margin:auto ;
+
+    visibility: hidden;
+    opacity: 0;
+
+    transition: all 0.5s;
+}
+
+.gallery.active {
+    visibility: visible;
+    opacity: 1;
+    place-content: center;
+}
+
+.gallery .icon-zoom {
+    display: none;
+}

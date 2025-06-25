@@ -1,0 +1,55 @@
+/* CATALOGGG */
+
+
+.catalog {
+    position: relative;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 5rem;
+    display: grid;
+}
+
+.catalog__title {
+    margin: 2rem 0.5rem;
+    font-weight: 600;
+    color: var(--Very_dark_blue);
+    font-size: clamp(1.3rem, 3vw, 1.8rem );
+}
+
+.catalog__btn {
+    background-color: var(--Orange);
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    color: var(--White);
+    border-radius: 25px;
+    justify-self: center;
+    margin: 1rem;
+}
+
+.catalog__btn:hover {
+    opacity: 0.8;
+    
+}
+.catalog__btn:active {
+    scale:1.1
+}
+
+
+
+.catalog__container {
+    display: grid;
+    gap: 30px;
+    justify-content: center;
+}
+
+@media (min-width:500px) {
+    .catalog__container {
+        grid-template-columns: repeat(2, minmax(200px,300px));
+    }
+}
+
+@media (min-width:1024px) {
+    .catalog__container {
+        grid-template-columns: repeat(auto-fit, minmax(200px,280px));
+    }
+}
