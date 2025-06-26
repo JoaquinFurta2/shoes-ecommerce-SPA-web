@@ -176,7 +176,7 @@
     pointer-events: none;
 }
 .product {
-    margin-top: 5rem;
+    margin-top: 4rem;
     width:min(100%, 600px);
     margin-inline: auto;
 }
