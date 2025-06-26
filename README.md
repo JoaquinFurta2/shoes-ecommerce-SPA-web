@@ -2,7 +2,7 @@
 
 A single-page sneaker e-commerce web app built using **HTML**, **CSS**, and **JavaScript** (no frameworks).  
 
-## Live Demo
+## 🔎 Live Demo
 [View Live Project on Netlify](https://sneakers-for-you.netlify.app/)
 
 
@@ -24,8 +24,23 @@ A single-page sneaker e-commerce web app built using **HTML**, **CSS**, and **Ja
 -  **Image Carousel and Modal**  
   Products include a carousel and also a fullscreen modal gallery on click for detailed viewing.
 
+## 📸 Screenshots
+### Desktop 
+<div style="display: flex; flex-wrap: wrap;">
+  <img src="./assets/screenshots/screenshot-desktop-1.jpg" width="500" alt="Homepage" />
+  <img src="./assets/screenshots/screenshot-desktop-2.jpg" width="500" alt="Product" />
+  <img src="./assets/screenshots/screenshot-desktop-3.jpg" width="500" alt="Carrusel" />
+</div>
 
-## Technologies Used
+### Mobile 
+<div style="display: flex; flex-wrap: wrap;">
+  <img src="./assets/screenshots/screenshot-mobile-1.jpg" width="175" alt="Prodcut" />
+  <img src="./assets/screenshots/screenshot-mobile-2.jpg" width="175" alt="men shoes section" />
+</div>
+
+
+
+## ⚒ Technologies Used
 
 - HTML5
 - CSS3 
