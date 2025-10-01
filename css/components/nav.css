@@ -26,10 +26,10 @@ nav {
 .nav__cont {
     font-weight: 600;
     font-size: 1rem;
-    padding: 1rem 1rem;
+    padding:1rem;
     
     display: grid;
-    grid-template-columns: 1fr 5fr auto;
+    grid-template-columns: auto 5fr auto;
     align-items: center;
     gap: 30px;
     width: min(100%, 1400px);
@@ -38,6 +38,26 @@ nav {
 
 
 
+.nav__cont .cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+     width: 25px;
+}
+
+.nav__cont .open-menu svg {
+    width: 16px;
+    height: 16px;
+}
+
+
+
+.nav-menu {
+    
+    padding-left: 1rem;
+    font-size: 0.9rem;
+}
 .nav-menu ul {
     padding: 0;
     list-style: none;
@@ -122,13 +142,26 @@ nav {
     translate: 0;
 }
 
-@media (max-width:750px) {
-
-    .nav__cont {
+@media(max-width:1150px) {
+     .nav__cont a svg {
+        width: 100px;
         
     }
+
+    .nav__cont {
+         padding: 0.5rem 1rem;
+    }
+    .nav-menu li::after {
+        bottom: -1.5rem;
+    }
+}
+
+@media (max-width:650px) {
+
+   
     
     .nav-menu {
+        
         position: fixed;
         background-color: var(--Light_grayish-blue);
         left: 0;
@@ -137,17 +170,20 @@ nav {
         height: 100vh;
         padding: 3rem 1rem 1rem 1rem;
         display: grid;
+       
         align-content: start;
         justify-items: start;
         gap: 30px;
         z-index:10000;
     
         ul {
+             margin-top: 5rem;
             display: grid;
             gap: 20px;
         }
 
         li {
+            
             opacity: 1;
             font-weight: 700;
             transition: all 0.3s ease-in-out;
@@ -187,138 +223,3 @@ nav {
         font-size: 1.5rem;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* nav {
-    margin:  1rem 2rem;
-    padding-bottom: 2rem ;
-
-    display: grid;
-    grid-template-columns: 1fr 4fr auto auto ;
-    align-items: center;
-    gap: 25px;
-
-    border-bottom: 1px solid var(--Blackx);
-}
-
-nav ul {
-    
-    display: flex;
-    align-items: center;
-    gap: 25px;
-
-    list-style: none;
-    padding: 0;
-    color: var(--Very_dark_blue);
-   
-}
-
-nav li {
-    position: relative;
-    cursor: pointer;
-    opacity: 0.7;
-    transition: opacity 0.2s ease-in-out;
-}
-
-nav li:hover {
-    opacity: 1;
-}
-
-nav li::before {
-    position: absolute;
-    content: '';
-    left: 0;
-    right: 0;
-    bottom: -3.4rem;
-    height: 3px;
-    background: var(--Orange);
-    transform: scale(0);
-    transform-origin: center;
-    transition: transform 0.3s ease-out;
-}
-
-nav li:hover::before {
-    transform: scale(1);
-}
-
-.avatar {
-    cursor: pointer;
-    border-radius: 100%;
-    max-width: 60px;
-}
-
-.avatar:hover {
-    outline: 1px var(--Orange) solid;
-}
-
-.cart path {
-    fill: var(--Very_dark_blue);
-}
-.cart {
-    cursor: pointer;
-}
-
-.close-menu, .open-menu {
-    padding: 0;
-    margin: 0;
-    display: none;
-    background: none;
-    border: none;
-}
-.close-menu path , .open-menu path {
-    fill: var(--Very_dark_blue);
-}
-
-@media (max-width:750px) {
-
-    nav {
-        position: fixed;
-        background: var(--Light_grayish-blue);
-        grid-template-columns: auto 1fr auto auto auto;
-        border: none;
-        padding: 1rem;
-        margin: 0;
-        width: 100%;
-        gap: 15px;
-    }
-    
-    nav ul {
-        display: none;
-    }
-
-    .open-menu {
-        display: flex;
-    }
-} */

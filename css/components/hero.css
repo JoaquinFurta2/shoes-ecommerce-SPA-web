@@ -69,7 +69,7 @@
    width: 45%;
  }
  
- @media (max-width:550px) {
+ @media (max-width:500px) {
      .hero {
         flex-direction: column-reverse;
         justify-content: start;
@@ -83,4 +83,6 @@
         /* font-size: clamp(3.7rem, 18vw, 3.9rem); */
         font-size:clamp(2.5rem, 12vw, 3.9rem)
      }
+
  }
+

@@ -3,8 +3,8 @@
     position: fixed;
     inset: 0;
     z-index: 10000000000;
-    max-width: 700px;
-    height: fit-content;
+    width: 700px;
+   
     margin:auto ;
 
     visibility: hidden;
@@ -21,4 +21,27 @@
 
 .gallery .icon-zoom {
     display: none;
+}
+
+
+@media (max-height: 820px) and (min-width: 800px) { 
+   .gallery {
+        max-width: 700px;
+   }
+
+   .gallery .slider-cont {
+    gap: 16px;
+   }
+   .gallery .close {
+    grid-column: 2/3;
+   }
+   .gallery .preview {
+    padding-right: 1rem;
+    grid-row: 2;
+    grid-column: 1/2;
+   }
+   .gallery .slide {
+    grid-column: 2/3;
+    grid-row: 2;
+   }
 }
